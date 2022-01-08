@@ -28,6 +28,6 @@ Import the SelfiSegmentation from cvzone.SelfiSegmentationModule.
 
 The removeBG module removes the background of the image, not much to do here, will need to try how to do this from scratch some day.
 
-![original image](images/IMG-7098.jpg)
+![original image](images/FF1p2Z1VkAARG82.jpeg)
 
-![background removed](images/bgremoved.jpg)
+![background removed](images/bgremoved.jpeg)
