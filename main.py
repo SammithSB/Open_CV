@@ -41,10 +41,10 @@ while True:
     print(imgIndex)
     cv2.imshow("image", imgStacked)
     key = cv2.waitKey(1)
-    if key == ord('a'):
+    if key == ord('p'):
         if imgIndex > 0:
             imgIndex -= 1
-    elif key == ord('d'):
+    elif key == ord('n'):
         if imgIndex < len(imgList)-1:
             imgIndex += 1
     elif key == ord('q'):

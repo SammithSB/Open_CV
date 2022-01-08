@@ -26,15 +26,19 @@ Fourth step would be to invert back the blurred inverted image.
 The final step is to divide the gray imaage with the Inverted blur image.
 dividing the grayscale image by the inverse of the blurred image, remains with the highlights the boldest edges.
 This results in the sketch of the uploaded image.
+
 ![original image](images/sam.jpeg)
+
 ![sketch](images/cartoon_sketch.jpg)
 
-<sketch_live.py>
+<h1>sketch_live.py</h1>
 This file opens up the web camera and converts each frame into a sketch in real time.
 ![gif](static/ezgif.com-gif-maker.gif)
 
 <h1>bgremove.py</h1>
 In this we use the same SelfiSegmentation module that we used previosly to remove background from pictures.
 The difference is that we are uploading the picture of which we want the remove the background of.
+
 ![original image](images/IMG-7098.jpg)
+
 ![background removed](images/bgremoved.jpg)
