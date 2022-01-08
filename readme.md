@@ -29,10 +29,11 @@ This results in the sketch of the uploaded image.
 
 ![original image](images/sam.jpeg)
 
-![sketch](images/cartoon_sketch.jpg)
+![sketch](images/sketch1.png)
 
 <h1>sketch_live.py</h1>
 This file opens up the web camera and converts each frame into a sketch in real time.
+
 ![gif](static/ezgif.com-gif-maker.gif)
 
 <h1>bgremove.py</h1>
